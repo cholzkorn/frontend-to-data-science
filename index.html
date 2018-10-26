@@ -1,0 +1,39 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://bootswatch.com/4/superhero/bootstrap.min.css">
+  <link rel="stylesheet" href="https://bootswatch.com/4/superhero/bootstrap.css">
+</head>
+<body>
+
+<h2 class="col-md-12">please enter your personal information. </h2>
+<hr>
+
+<form action="connect.php" method="POST" class="col-md-12">
+
+  first name: <br>
+    <input type="text" name="firstname">
+    <br><br>
+
+  last name: <br>
+    <input type="text" name="lastname">
+    <br><br>
+
+  occupation: <br>
+    <input type="text" name="occupation">
+    <br><br>
+
+  yearly salary: <br>
+    <input type="number" name="salary" min="0" step="1000">
+    <br><br>
+
+  job satisfaction (1-100%): <br>
+    <input type="number" name="satisfaction" min="0" max="100">
+    <br><br>
+
+    <input type="submit" name="submit" value="Submit">
+
+</form>
+
+</body>
+
+</html>
