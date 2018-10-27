@@ -7,8 +7,6 @@
   <li>Microsoft Account for using Azure Notebooks</li>
 </ul>
 
-<br>
-
 <h3>Steps</h3>
 <ul>
   <li>Setting up xampp</li>
